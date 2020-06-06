@@ -1,0 +1,42 @@
+.comment__body {
+  width: 100%;
+  padding: 0 30px;
+  border-radius: 10px;
+  background-color: rgb(161, 201, 219);
+  margin: 10px 0 10px 0;
+  &_name {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 0.5em !important;
+  }
+  &_date {
+    text-align: right;
+  }
+}
+
+.page-number {
+  list-style-type: none;
+  margin-top: 30px;
+  &__button {
+    display: inline;
+    background: rgb(161, 201, 219);
+    padding: 0.5em;
+    margin-left: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      font-size: 1.1em;
+      background-color: khaki;
+      color: blue;
+      box-shadow: 0 0 6px black;
+    }
+  }
+}
+
+.active {
+  font-size: 1.1em;
+  background-color: khaki;
+  color: blue;
+  box-shadow: 0 0 6px black;
+}
